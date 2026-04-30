@@ -1,1 +1,56 @@
 <!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact | Imax Portfolio</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header><div class="container navbar"><a class="logo" href="index.html">IMAX</a><nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="education.html">Education</a><a href="certification.html">Certification</a><a href="contact.html">Contact</a></nav></div></header><main class="container"><section class="section-card"><h2>Contact</h2><div class="contact-list"><a class="contact-link" href="tel:+916379075447">Phone: +91 6379075447</a><a class="contact-link" href="mailto:seshanshreem@gmail.com">Email: seshanshreem@gmail.com</a><a class="contact-link" href="https://github.com/Seshanshree" target="_blank" rel="noopener">GitHub: github.com/Seshanshree</a><a class="contact-link" href="https://www.linkedin.com/in/seshanshree-m-490051360" target="_blank" rel="noopener">LinkedIn: seshanshree-m</a></div></section></main><footer>© 2026 IMAX Portfolio</footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMAX | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">IMAX</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="certification.html">Certification</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container section">
+    <h1>Contact</h1>
+    <div class="contact-card">
+      <a href="tel:+916379075447">Phone: +91 6379075447</a>
+      <a href="mailto:seshanshreem@gmail.com">Email: seshanshreem@gmail.com</a>
+      <a href="https://github.com/Seshanshree" target="_blank" rel="noopener">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/seshanshree-m-490051360" target="_blank" rel="noopener">LinkedIn Profile</a>
+    </div>
+
+    <section class="contact-form-section">
+      <h2>Send a message</h2>
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="2" maxlength="80" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required maxlength="120" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required minlength="10" maxlength="2000"></textarea>
+
+        <button type="submit">Submit</button>
+        <p id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
