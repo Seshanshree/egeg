@@ -32,6 +32,23 @@
       <a href="https://github.com/Seshanshree" target="_blank" rel="noopener">GitHub Profile</a>
       <a href="https://www.linkedin.com/in/seshanshree-m-490051360" target="_blank" rel="noopener">LinkedIn Profile</a>
     </div>
+
+    <section class="contact-form-section">
+      <h2>Send a message</h2>
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="2" maxlength="80" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required maxlength="120" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required minlength="10" maxlength="2000"></textarea>
+
+        <button type="submit">Submit</button>
+        <p id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
   </main>
   <script src="script.js"></script>
 </body>
