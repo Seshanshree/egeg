@@ -30,3 +30,8 @@ h1{font-size:clamp(2rem,3.8vw,3.2rem);margin:.2rem 0}
 .contact-card{padding:1.5rem;display:grid;gap:.8rem;background:linear-gradient(160deg,#ffffff,#eef6ff)}
 .contact-card a{text-decoration:none;color:var(--text);font-weight:500;padding:.7rem;border:1px solid #d9dfec;border-radius:10px;background:#fff}
 @media (max-width:800px){.hero{grid-template-columns:1fr}.menu-toggle{display:block}.site-nav{position:absolute;top:60px;right:4%;background:#fff;padding:.8rem;border-radius:10px;display:none;flex-direction:column;box-shadow:0 8px 20px #0000001f}.site-nav.open{display:flex}}
+.contact-form-section{margin-top:1.5rem;padding:1.5rem;border-radius:16px;background:#fff;box-shadow:0 10px 22px #00000012}
+.contact-form{display:grid;gap:.65rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.7rem .8rem;border:1px solid #d5dced;border-radius:10px;font:inherit}
+.contact-form button{justify-self:start;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;border:none;padding:.7rem 1.2rem;border-radius:8px;cursor:pointer}
+#form-status{min-height:1.3rem;color:var(--muted);margin:.2rem 0 0}
